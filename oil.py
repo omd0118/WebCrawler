@@ -17,13 +17,6 @@ if down_element and rate_element:
     down_text = down_element.get_text()
     rate_text = rate_element.get_text()
 
-price1 = data.get('sPrice1')
-price2 = data.get('sPrice2')
-price3 = data.get('sPrice3')
-price4 = data.get('sPrice4')
-price5 = data.get('sPrice5')
-price6 = data.get('sPrice6')
-
 # 取得 PriceUpdate 的資訊
 t_PriceUpdate = data.get('PriceUpdate')
 print(f"{t_PriceUpdate}零時起實施")
